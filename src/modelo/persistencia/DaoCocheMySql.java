@@ -16,6 +16,7 @@ public class DaoCocheMySql implements DaoCoche{
 	private Connection con;
 	
 	public boolean abrirConexion(){
+		// USE YOUR PERSONAL CREDENTIALS
 		String url = "jdbc:mysql://localhost:8889/AE2BBDD";
 		String usuario = "root";
 		String password = "root";
