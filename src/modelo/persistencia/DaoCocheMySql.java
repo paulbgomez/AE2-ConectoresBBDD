@@ -7,9 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
 import modelo.entidad.Coche;
-import modelo.entidad.Persona;
 
 public class DaoCocheMySql implements DaoCoche{
 	
@@ -181,7 +179,7 @@ public class DaoCocheMySql implements DaoCoche{
 				coche.setMatricula(rs.getString(2));
 				coche.setModelo(rs.getString(3));
 				coche.setColor(rs.getString(4));
-				coche.setMarca(rs.getString(4));
+				coche.setMarca(rs.getString(5));
 				
 				coches.add(coche);
 			}
